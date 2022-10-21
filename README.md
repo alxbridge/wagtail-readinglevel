@@ -27,3 +27,17 @@ Currently there are two available modes:
 
 ## Usage
 Once installed You will see the reading level and/or smog index displayed in the toolbar of all rich text fields in your Wagtail admin area (depending on which you added to your list of installed apps).
+
+## Known issues
+
+### Wagtail v4
+
+- This package works differently in a Wagtail v4 site. You will need to place your mouse over the richtext area to see the readings. They will show when you are entering text.
+
+### Wagtail v3
+
+- If you are using a RichTextBlock() inside a StreamField the reading level scores will not show.
+
+### Wagtail < v3
+
+- We've not tested the StreamField in this scenario, you might need to double check in your own setup to be sure.
