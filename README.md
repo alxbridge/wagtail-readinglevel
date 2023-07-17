@@ -1,4 +1,7 @@
-# wagtail-readinglevel
+# wagtail-readinglevel (DO NOT USE)
+
+**This fork has been superseded by the [repository in _torchbox-forks_](https://github.com/torchbox-forks/wagtail-readinglevel/). Please update your references accordingly.**
+
 A lightweight Wagtail plugin to determine the reading level of text input into a rich text field.
 
 Currently there are two available modes:
